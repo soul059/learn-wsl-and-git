@@ -1,0 +1,9 @@
+mkdir <folder name> - making directry 
+rmdir <folder name> - deleting directry
+mv <folder name> - rename directry
+
+
+
+touch <file name with extension> - making file
+code <file name with extension> - opening file
+rm <file name with extension> - rename file
