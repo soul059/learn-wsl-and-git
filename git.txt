@@ -1,0 +1,12 @@
+This file is for git command 
+
+git init                            - it will initialize branch in current directory
+
+git status                          - it will shaw git status
+
+git add                             - it add changish or new file in commit section
+git commit                          - it will commit changish
+    (preffer to use git commit -m "coommit massage")
+
+git log                             - it will show all commit info
+git log --oneline                   - it will show all commit in one line formate
