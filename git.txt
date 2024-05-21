@@ -17,4 +17,10 @@ git branch                          - it will show how many branch and now which
 git branch <branch name>            - it will make new branch
 git checkout <branch name>          - it will go to that branch
     (git switch <branch name>)
+git branch -d <branch name>         - it will delete branch
 
+
+---------------- murging branch ----------------
+git merge <branch name>             - it has 2 cases
+                            1) if merging branch was no change code that avalible on merging branch --> there is nothing worry about
+                            2) if merging branch was changes that code avalibleon merging branch --> you need to menualy select what code you want to keep

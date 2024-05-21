@@ -1,3 +1,7 @@
+
+man <command>                       - it will discribe command
+
+
 mkdir <folder name>                 - making directry 
 rmdir <folder name>                 - deleting directry
 
