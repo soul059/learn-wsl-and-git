@@ -1,9 +1,14 @@
-mkdir <folder name> - making directry 
-rmdir <folder name> - deleting directry
-mv <folder name> - rename directry
+mkdir <folder name>                 - making directry 
+rmdir <folder name>                 - deleting directry
+
+mv <folder/file name>               - rename directry/file
 
 
+touch <file name with extension>    - making file
+code <file name with extension>     - opening file and making file (but you need to save)
+rm <file name with extension>       - delete file
 
-touch <file name with extension> - making file
-code <file name with extension> - opening file
-rm <file name with extension> - rename file
+ls                                  - shows list of folders in current directory
+
+cd <file name>                      - to go into file name 
+cd ..                               - go to prevus file
