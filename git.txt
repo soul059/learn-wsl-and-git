@@ -1,5 +1,7 @@
 This file is for git command 
 
+-git learning --> https://chaicode.com/blogs/6648f66c6e3fef511c90997e
+
 git init                            - it will initialize branch in current directory
 
 git status                          - it will shaw git status
