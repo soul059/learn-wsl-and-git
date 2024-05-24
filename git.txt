@@ -15,6 +15,7 @@ git log --oneline                   - it will show all commit in one line format
 
 git branch                          - it will show how many branch and now which is active
 git branch <branch name>            - it will make new branch
+git branch -M <name>                - changing current branch name
 git checkout <branch name>          - it will go to that branch
     (git switch <branch name>)
 
@@ -44,3 +45,18 @@ git stash apply                     - apply changes and keep them in stash
 
 
 git restore <file name>             - get back to last commit version
+
+
+------------- git rebase  always run form another branch -------------
+
+git rebase (masetr or main)         - it will re build branch from master for newer commits
+
+
+------------- remote -------------
+
+git remote -v                       - it will show you if any connection is live or not
+git remote add <name> <url>         - it will set remote connection
+
+git push <name> <brnach>            - it will push code to that branch
+git push -u origin main             - -u setup an upstrean that allow us to run feture command
+git push                            - it push the code directly to github
