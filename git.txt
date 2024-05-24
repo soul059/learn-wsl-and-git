@@ -60,3 +60,7 @@ git remote add <name> <url>         - it will set remote connection
 git push <name> <brnach>            - it will push code to that branch
 git push -u origin main             - -u setup an upstrean that allow us to run feture command
 git push                            - it push the code directly to github
+
+git clone <url>                     - it will clone any repo in github to local system
+
+git pull                            - it will pull letest code that on github
