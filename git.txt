@@ -17,6 +17,11 @@ git branch                          - it will show how many branch and now which
 git branch <branch name>            - it will make new branch
 git checkout <branch name>          - it will go to that branch
     (git switch <branch name>)
+
+git checkout HEAD~<commit number>   - it mooves head to prevus commit (you can see your prevus done things)
+git checkout (master or main)       - it mooves head to letest code
+    (git reflog - works same as)
+
 git branch -d <branch name>         - it will delete branch
 
 
@@ -24,3 +29,18 @@ git branch -d <branch name>         - it will delete branch
 git merge <branch name>             - it has 2 cases
                             1) if merging branch was no change code that avalible on merging branch --> there is nothing worry about
                             2) if merging branch was changes that code avalibleon merging branch --> you need to menualy select what code you want to keep
+
+
+git diff <hase1 hase2>              - to see diffrance bitween 2 commits
+git diff --staged                   - when you are in staging zone it talls diffrance between last commmit and now staging zone
+
+
+
+-------- stash is branch indipandent && for tampory use only -----
+git stash                           - to save work on differnt branch before changing to new branch
+git stash list                      - shows list of saved 
+git stash pop                       - pop changes and apply in branch 
+git stash apply                     - apply changes and keep them in stash
+
+
+git restore <file name>             - get back to last commit version
