@@ -56,6 +56,7 @@ git rebase (masetr or main)         - it will re build branch from master for ne
 
 git remote -v                       - it will show you if any connection is live or not
 git remote add <name> <url>         - it will set remote connection
+git remote rm <name>                - it will close remote connection
 
 git push <name> <brnach>            - it will push code to that branch
 git push -u origin main             - -u setup an upstrean that allow us to run feture command
